@@ -1,0 +1,18 @@
+.warning {
+  position: relative;
+  border: 2px solid rgb(225, 215, 196);
+  padding: 20px;
+}
+.warning p {
+  color: orange;
+}
+.warning:hover {
+  background: lightblue;
+}
+.warning::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: black;
+}/*# sourceMappingURL=style.css.map */

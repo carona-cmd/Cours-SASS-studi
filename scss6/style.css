@@ -1,0 +1,14 @@
+.box {
+  background: #0984e3;
+  height: 400px;
+  width: 800px;
+}
+
+.card {
+  background: rgb(232, 117, 117);
+  padding: 50px;
+  margin: 40px;
+  box-shadow: 4px 4 px 10 px lightcoral;
+  border-radius: 12px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

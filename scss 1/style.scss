@@ -1,0 +1,20 @@
+.warning {
+  position: relative;
+  border: 2px solid rgb(225, 215, 196);
+  padding: 20px;
+
+  p {
+    color: orange;
+  }
+
+  &:hover {
+    background: lightblue;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: black;
+  }
+}

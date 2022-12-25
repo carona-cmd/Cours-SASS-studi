@@ -1,0 +1,36 @@
+$system-font-stack: -apple-system, BlinckMacSystemFont
+
+$info: #0984e3 ;
+/*$info-darker:#0984e3;*/
+$info-darker: darken (#0984e3, 20%);/*lighten*/
+$info-lighter:#0984e3;
+$info-semi-transparent:#fff;
+/*fade-out(color,0.8).*/
+
+
+.information {
+  margin: 50px;
+  padding: 15px;
+  box-shadow: 4px 4px 10 px lightgray;
+  border-radius: 6px;
+  width: 400px;
+  background: $info-semi-transparent;
+}
+
+h4 {
+  color: $info-darker;
+  font-size: 1.4em;
+  margin: 5px 0;
+}
+
+p {
+  color: $info;
+}
+
+a {
+  color: $info-lighter;
+}
+
+/*calc(100%- 200px);
+rgb(255, 255, 255);*/
+/*documentation built in modules*/

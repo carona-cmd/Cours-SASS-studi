@@ -1,0 +1,30 @@
+p {
+  /*font-size: 1em;*/
+  font-size: 1em;
+  color: rgb(77, 152, 227);
+}
+
+.title {
+  /*font-size: 2.4em;*/
+  font-size: 2.4em;
+  /*color: rgb(77, 152, 227);*/
+  color: rgb(77, 152, 227);
+}
+
+a {
+  /*font-size: 0.7em;*/
+  font-size: 0.7em;
+  /*color: rgb(77, 152, 227);*/
+  color: rgb(77, 152, 227);
+}
+
+.warning .title {
+  font-size: 2.4em;
+  /*color: orange;*/
+  color: orange;
+}
+.warning p {
+  font-size: 1em;
+  /*color: orange;*/
+  color: orange;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+$system-font-stack: -apple-system, BlincMacSystemFont, "Segoe UI";
+
+$info: #0984e3;
+$text: #fff;
+
+@function h($num) {
+  @return $num / 2;
+}
+
+/*@mixin card($radius, $padding) {
+  background: rgb(232, 117, 117);
+  padding: $padding;
+  margin: 40px;
+  box-shadow: 4px 4 px 10 px lightcoral;
+  border-radius: $radius;
+}*/
+
+@mixin card($radius: 0) {
+  background: rgb(232, 117, 117);
+  padding: $padding;
+  margin: 40px;
+  /*box-shadow: 4px 4 px 10 px lightcoral;*/
+  @if $radius>0 {
+    border-radius: $radius;
+    box-shadow: 4px 4 px 10 px lightcoral;
+  } @else {
+    box-shadow: 4px 4 px 10 px green;
+  }
+  border-radius: $radius;
+}
+.box {
+  background: $info;
+  height: #{h(800)}px;
+  width: 800px;
+}
+
+/*.card {
+  @include card(12px, 50px);
+  color: red;
+}*/
+.card {
+  @include card(20);
+  color: red;
+}

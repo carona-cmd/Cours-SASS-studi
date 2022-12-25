@@ -1,0 +1,29 @@
+$system-font-stack: -apple-system, BlincMacSystemFont, "Segoe UI";
+
+$info: #0984e3;
+$text: #fff;
+
+.box {
+  background: $info;
+  color: $text;
+  font-family: $system-font-stack;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+$radius-sizes: (
+  "sm": 4px,
+  "md": 20px,
+  "lg": 40px,
+);
+/*boucle*/
+@each $name, $size in $radius-sizes {
+  .radius-#{$name} {
+    /* interpolation de variable*/
+    border-radius: $size;
+  }
+}

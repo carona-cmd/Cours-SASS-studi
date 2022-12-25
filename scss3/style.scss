@@ -1,0 +1,14 @@
+/*.highlight {
+  color: pink;
+  font-weight: bold;
+}*/
+%highlight {
+  color: aqua;
+  font-weight: bold;
+}
+
+.important-information {
+  p {
+    @extend %highlight;
+  }
+}

@@ -1,0 +1,40 @@
+$info: rgb(77, 152, 227);
+$warning: orange;
+
+$font-md: 1em;
+$font-sm: 0.7em;
+$font-lg: 2.4em;
+
+p {
+  /*font-size: 1em;*/
+  font-size: $font-md;
+  color: $info;
+}
+
+.title {
+  /*font-size: 2.4em;*/
+  font-size: $font-lg;
+  /*color: rgb(77, 152, 227);*/
+  color: $info;
+}
+
+a {
+  /*font-size: 0.7em;*/
+  font-size: $font-sm;
+  /*color: rgb(77, 152, 227);*/
+  color: $info;
+}
+
+.warning {
+  .title {
+    font-size: 2.4em;
+    /*color: orange;*/
+    color: $warning;
+  }
+
+  p {
+    font-size: 1em;
+    /*color: orange;*/
+    color: $warning;
+  }
+}

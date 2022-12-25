@@ -1,0 +1,8 @@
+$radius: 12px 10px 8 px 14px;
+
+.box {
+  border-radius: $radius;
+  width: nth($radius, 2);
+}
+/*map.merge
+map.get*/

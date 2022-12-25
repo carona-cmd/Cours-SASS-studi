@@ -1,0 +1,27 @@
+.box {
+  background: #0984e3;
+  color: #fff;
+  font-family: -apple-system, BlincMacSystemFont, "Segoe UI";
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+/*boucle*/
+.radius-sm {
+  /* interpolation de variable*/
+  border-radius: 4px;
+}
+
+.radius-md {
+  /* interpolation de variable*/
+  border-radius: 20px;
+}
+
+.radius-lg {
+  /* interpolation de variable*/
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */
